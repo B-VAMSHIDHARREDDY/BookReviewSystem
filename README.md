@@ -1,27 +1,39 @@
-# Clone the repository
+**Employee Management System**
+
+  python EmployeeManagementSystem.py 
+
+  It will display all operatons
+
+
+
+# Book review system
+  
+
+
+**Clone the repository**
 git clone url
 
-# Navigate to the project directory
+**Navigate to the project directory**
 cd BOOKREVIEWSYSTEM
-# Create a virtual environment (optional but recommended)
+**Create a virtual environment (optional but recommended)**
 python -m venv envbook
 
-# Activate the virtual environment (Windows)
+**Activate the virtual environment (Windows)**
 .\envbook\Scripts\activate
 
-# Activate the virtual environment (macOS/Linux)
+**Activate the virtual environment (macOS/Linux)**
 source venv/bin/activate
 
-# Install project dependencies
+**Install project dependencies**
 pip install -r requirements.txt
 
-# Apply migrations
+**Apply migrations**
 python manage.py migrate
 
-# Create a superuser account for administrative access
+**Create a superuser account for administrative access**
 python manage.py createsuperuser
 
-# Start the development server
+**Start the development server**
 python manage.py runserver
 
 Certainly! Here are the API endpoints for your Book Review System:
